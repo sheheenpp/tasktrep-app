@@ -3,6 +3,8 @@ import Tag from "./Tag.jsx";
 import "./TaskCard.css";
 import deleteIcon from "../assets/delete.png";
 
+// ---
+
 function TaskCard({ title, tags, handleDelete, index }) {
   return (
     <article className="task_card">
