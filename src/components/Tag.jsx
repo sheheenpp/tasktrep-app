@@ -1,6 +1,6 @@
 import React from "react";
 import "./Tag.css";
-
+// ---------------
 function Tag({ tagName, selectTag, selected }) {
   const tagStyle = {
     HTML: { backgroundColor: "#fda821" },
